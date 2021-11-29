@@ -1,0 +1,3 @@
+C:/Users/leonardek/Desktop/dtopgui-master/build/CMakeFiles/dtopgui.dir
+C:/Users/leonardek/Desktop/dtopgui-master/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/leonardek/Desktop/dtopgui-master/build/CMakeFiles/ZERO_CHECK.dir
