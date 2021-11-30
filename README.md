@@ -34,7 +34,7 @@ The devices haven't specified type, <b>In toolbar you have</b>:
 `Diamond`
 
 ## Eight type of media
-`Straight-Throught`
+`Straight-Through`
 `Cross-Over`
 `Fiber-Optic`
 `Serial-DCE`
