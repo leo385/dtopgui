@@ -43,12 +43,10 @@ The devices haven't specified type, <b>In toolbar you have</b>:
 `USB`
 
 # Building repository
-<br>
 I prefered to use `MSBUILD` instead of `MAKE` to build the repository.<br>
 Before building that project you should clone him into "your own" directory
-<br><br>
+<br>
 <pre><code>git clone https://github.com/leo385/dtopgui.git</code></pre>
-</br>
 
 After cloning process, you can build the project being in ``/dtopgui`` folder.
 <br><b>All you have to do is typing the command below:</b></br>
