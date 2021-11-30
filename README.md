@@ -25,7 +25,7 @@ The devices haven't specified type, <b>In toolbar you have</b>:
 `SWITCH`
 `SERVER`
 `PC`
-`PRINTER`
+`LAPTOP`
 
 ## Three type of Shapes to draw for clear looking on the topology
 `Rectangle`
