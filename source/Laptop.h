@@ -2,10 +2,10 @@
 #include "ItemProporties.h"
 #include "IResourceLoad.h"
 
-class Switch : public sItem, public IResourceLoad<olc::Sprite>
+class Laptop : public sItem, public IResourceLoad<olc::Sprite>
 {
 public:
-	Switch(const int& nID, const olc::vf2d& pos, const olc::vi2d& size);
+	Laptop(const int& nID, const olc::vf2d& pos, const olc::vi2d& size);
 
 	//For toolbar
 	void DrawImage(olc::PixelGameEngine* pge) override;

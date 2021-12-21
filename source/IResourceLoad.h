@@ -1,6 +1,10 @@
 #pragma once
 #include <memory>
+
 #include "olcPixelGameEngine.h"
+
+#include "ItemProporties.h"
+
 
 template<typename D>
 struct IResourceLoad

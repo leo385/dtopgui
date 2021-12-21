@@ -6,11 +6,7 @@
 class Space : public World
 {
 public:
-	Space()
-	{
-		std::cout << "Klasa Space\n";
-	}
-	
+	Space() = default;
 	
 	void WorldToScreen(const olc::vf2d& v, int& nScreenX, int& nScreenY)
 	{
@@ -69,6 +65,8 @@ public:
 			fScale *= 0.9f;
 		}
 			
+		if (fScale > 135.f) fScale = 135.f;
+
 		ScreenToWorld((int)vMouse.x, (int)vMouse.y, vMouseAfterZoom);	
 		
 		vOffset += (vMouseBeforeZoom - vMouseAfterZoom);		
@@ -83,7 +81,7 @@ public:
 	void Draw(olc::PixelGameEngine* pge) override
 	{
 	
-	        //Draw Axis X & Y
+	    //Draw Axis X & Y
 
 		WorldToScreen({0, vWorldLeftTop.y}, sx, sy);
 		WorldToScreen({0, vWorldRightBottom.y}, ex, ey);

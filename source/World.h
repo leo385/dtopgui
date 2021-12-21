@@ -17,6 +17,7 @@ struct World
 	static f_floatPerPixel fWorldScale;
 	static olc::vf2d vWorldOffset;
 
+	//Cell in toolbar
 	struct sCellSquare
 	{
 		olc::vf2d vCell = { 0.0f, 0.0f };
@@ -28,15 +29,12 @@ struct World
 		World::i_intID nID = 0;
 	};
 
-	
-	
 	olc::vf2d vMouse = { 0.f, 0.f };
 
 	//MAINBAR_CPP_VARIABLES, cells in leftbar 
 	sCellSquare cell;
 	sCellSquare* b_SelectedCell = nullptr; //this pointer has been used in mainbar.cpp
 	i_intID* b_SelectedID = nullptr; //this too
-
 
 	virtual void Create(olc::PixelGameEngine* pge) = 0;
 	virtual void Update(olc::PixelGameEngine* pge, float& dt) = 0;

@@ -1,6 +1,7 @@
-#include "Server.h"
+#include "Laptop.h"
 
-Server::Server(const int& nID, const olc::vf2d& pos, const olc::vi2d& size)
+
+Laptop::Laptop(const int& nID, const olc::vf2d& pos, const olc::vi2d& size)
 {
 	nMaxNodes = 1;
 	vecNodes.reserve(nMaxNodes);
@@ -13,17 +14,17 @@ Server::Server(const int& nID, const olc::vf2d& pos, const olc::vi2d& size)
 	_pos = IResourceLoad_pos;
 	_size = IResourceLoad_size;
 
-	IResourceLoad::setGraphic("server.png");
-	sItem::setName("Server");
+	IResourceLoad::setGraphic("laptop.png");
+	sItem::setName("Laptop");
 
 }
 
-void Server::DrawImage(olc::PixelGameEngine* pge)
+void Laptop::DrawImage(olc::PixelGameEngine* pge)
 {
 	pge->DrawSprite((int)_pos.x, (int)_pos.y, uImage.get(), 1);
 }
 
-void Server::Draw(olc::PixelGameEngine* pge)
+void Laptop::Draw(olc::PixelGameEngine* pge)
 {
 	if (vecNodes.size() > 0)
 	{
@@ -34,5 +35,7 @@ void Server::Draw(olc::PixelGameEngine* pge)
 	}
 
 	WorldToScreen(sItem::getElementOfNode(0)->pos, sx, sy);
+
 	pge->DrawSprite(sx - _size.x / 2, sy - _size.y / 2, uImage.get(), 1);
+	
 }

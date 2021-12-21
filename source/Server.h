@@ -1,8 +1,8 @@
 #pragma once
-#include "Device.h"
+#include "ItemProporties.h"
 #include "IResourceLoad.h"
 
-class Server : public sDevice, public IResourceLoad<olc::Sprite>
+class Server : public sItem, public IResourceLoad<olc::Sprite>
 {
 public:
 	Server(const int& nID, const olc::vf2d& pos, const olc::vi2d& size);

@@ -3,61 +3,80 @@
 #include "Router.h"
 #include "Switch.h"
 #include "Server.h"
+#include "PC.h"
+#include "Laptop.h"
+
+#include "MainFactory.h"
 
 enum DeviceType
 {
 	ROUTER = 1,
 	SWITCH,
-	SERVER
-
+	SERVER,
+	COMPUTER,
+	LAPTOP
 };
 
-
-class DeviceFactory
+class DeviceFactory : public MainFactory<DeviceFactory,DeviceType>
 {
 public:
-	DeviceFactory() = default;
+	DeviceFactory(MainFactory* mainfactory)
+		: _mainfactory(mainfactory) {}
+
+	void initItems(const DeviceType& type, const int& id, const olc::vf2d& pos, const olc::vi2d& size) override
+	{
+		switch (type)
+		{
+			//1. Devices
+		case ROUTER:
+			item = new Router(id, pos, size);
+			break;
+
+		case SWITCH:
+			item = new Switch(id, pos, size);
+			break;
+
+		case SERVER:
+			item = new Server(id, pos, size);
+			break;
+
+		case COMPUTER:
+			item = new PC(id, pos, size);
+			break;
+
+		case LAPTOP:
+			item = new Laptop(id, pos, size);
+			break;
+
+		default:
+			std::cout << "Could not find picked type\n";
+			break;
+		}
+	}
 
 	DeviceFactory(const DeviceType& type, const int& id, const olc::vf2d& pos, const olc::vi2d& size)
 		: _deviceType(type)
 	{
-		switch(type)
-		{
-			case ROUTER:
-				device = new Router(id, pos, size);
-			break;
-
-			case SWITCH:
-				device = new Switch(id, pos, size);			
-			break;
-			
-			case SERVER:
-				device = new Server(id, pos, size);		
-			break;
-
-			//...
-			default:
-				std::cout << "Could not find choosed type\n";
-			break;
-		}
+		initItems(type, id, pos, size);
 	}
 
 	~DeviceFactory()
 	{
-		if(device == nullptr)
+		if(item == nullptr)
 		{
-	              delete device;
+	          delete item;
 		}
 	}
-	
-	sDevice* getDevice()
+
+	//Override ItemProporties
+	sItem* getItem() override
 	{
-		return device;
+		return item;
 	}
 
 private:
-	sDevice* device = nullptr;
 	DeviceType _deviceType;
+	MainFactory* _mainfactory = nullptr;
 };
 
 

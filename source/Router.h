@@ -1,8 +1,8 @@
 #pragma once
-#include "Device.h"
+#include "ItemProporties.h"
 #include "IResourceLoad.h"
 
-class Router : public sDevice, public IResourceLoad<olc::Sprite>
+class Router : public sItem, public IResourceLoad<olc::Sprite>
 {
 public:
 	Router() = default;

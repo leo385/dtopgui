@@ -15,7 +15,7 @@ Switch::Switch(const int& nID, const olc::vf2d& pos, const olc::vi2d& size)
 	_size = IResourceLoad_size;
 
 	IResourceLoad::setGraphic("switch.png");
-	sDevice::setDeviceName("Switch");
+	sItem::setName("Switch");
 
 }
 
@@ -26,6 +26,14 @@ void Switch::DrawImage(olc::PixelGameEngine* pge)
 
 void Switch::Draw(olc::PixelGameEngine* pge)
 {
-	WorldToScreen(sShape::getElement(0)->pos, sx, sy);
+	if (vecNodes.size() > 0)
+	{
+		for (auto& node : vecNodes)
+		{
+			node.color = olc::RED;
+		}
+	}
+
+	WorldToScreen(sItem::getElementOfNode(0)->pos, sx, sy);
 	pge->DrawSprite(sx - _size.x / 2, sy - _size.y / 2, uImage.get(), 1);
 }
