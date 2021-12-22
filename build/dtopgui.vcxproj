@@ -301,20 +301,35 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Circle.cpp" />
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Circle.h" />
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Device.h" />
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\DeviceFactory.h" />
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\IResourceLoad.h" />
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\ItemProporties.h" />
+    <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Laptop.cpp" />
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Laptop.h" />
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\MainFactory.h" />
     <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Mainbar.cpp" />
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Mainbar.h" />
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Media.h" />
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\MediaFactory.h" />
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Node.h" />
+    <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\PC.cpp" />
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\PC.h" />
+    <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Rectangle.cpp" />
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Rectangle.h" />
     <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Router.cpp" />
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Router.h" />
     <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Server.cpp" />
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Server.h" />
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Shape.h" />
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\ShapeFactory.h" />
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Space.h" />
     <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Switch.cpp" />
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Switch.h" />
+    <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Triangle.cpp" />
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Triangle.h" />
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\World.h" />
     <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\kernel.cpp" />
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\kernel.h" />

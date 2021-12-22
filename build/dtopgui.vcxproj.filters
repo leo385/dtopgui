@@ -1,7 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Laptop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Mainbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\PC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Rectangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Router.cpp">
@@ -13,6 +25,9 @@
     <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Switch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\leonardek\Desktop\dtopgui-master\source\kernel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -21,6 +36,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Device.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -30,10 +48,31 @@
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\IResourceLoad.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\ItemProporties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Laptop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\MainFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Mainbar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Media.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\MediaFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\PC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Rectangle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Router.h">
@@ -45,10 +84,16 @@
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Shape.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\ShapeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Space.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Switch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\Triangle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\leonardek\Desktop\dtopgui-master\source\World.h">

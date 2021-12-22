@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine 16.11.1+3e40a09f8 dla platformy .NET Framework
 Copyright (C) Microsoft Corporation. Wszelkie prawa zastrzeżone.
 
-Kompilacja rozpoczęła się 2021-11-29 02:52:10.
+Kompilacja rozpoczęła się 2021-12-22 14:28:35.
 Projekt "C:\Users\leonardek\Desktop\dtopgui-master\build\CMakeFiles\3.21.3\CompilerIdC\CompilerIdC.vcxproj" w węźle 1 (domyślne elementy docelowe).
 PrepareForBuild:
   Tworzenie katalogu "Debug\".
@@ -35,7 +35,7 @@ Kompilacja powiodła się.
     Ostrzeżenia: 0
     Liczba błędów: 0
 
-Czas, który upłynął: 00:00:01.13
+Czas, który upłynął: 00:00:01.22
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine 16.11.1+3e40a09f8 dla platformy .NET Framework
 Copyright (C) Microsoft Corporation. Wszelkie prawa zastrzeżone.
 
-Kompilacja rozpoczęła się 2021-11-29 02:52:11.
+Kompilacja rozpoczęła się 2021-12-22 14:28:37.
 Projekt "C:\Users\leonardek\Desktop\dtopgui-master\build\CMakeFiles\3.21.3\CompilerIdCXX\CompilerIdCXX.vcxproj" w węźle 1 (domyślne elementy docelowe).
 PrepareForBuild:
   Tworzenie katalogu "Debug\".
@@ -80,7 +80,7 @@ Kompilacja powiodła się.
     Ostrzeżenia: 0
     Liczba błędów: 0
 
-Czas, który upłynął: 00:00:00.89
+Czas, który upłynął: 00:00:00.87
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,28 +92,28 @@ The CXX compiler identification is MSVC, found in "C:/Users/leonardek/Desktop/dt
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/leonardek/Desktop/dtopgui-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_42424.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine 16.11.1+3e40a09f8 dla platformy .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_18c33.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine 16.11.1+3e40a09f8 dla platformy .NET Framework
 Copyright (C) Microsoft Corporation. Wszelkie prawa zastrzeżone.
 
   Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.29.30136 dla x64
   Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
   CMakeCCompilerABI.c
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42424.dir\Debug\\" /Fd"cmTC_42424.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCCompilerABI.c"
-  cmTC_42424.vcxproj -> C:\Users\leonardek\Desktop\dtopgui-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_42424.exe
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18c33.dir\Debug\\" /Fd"cmTC_18c33.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCCompilerABI.c"
+  cmTC_18c33.vcxproj -> C:\Users\leonardek\Desktop\dtopgui-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_18c33.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/leonardek/Desktop/dtopgui-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_4915e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine 16.11.1+3e40a09f8 dla platformy .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_dbabc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine 16.11.1+3e40a09f8 dla platformy .NET Framework
 Copyright (C) Microsoft Corporation. Wszelkie prawa zastrzeżone.
 
   Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.29.30136 dla x64
   Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
   CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4915e.dir\Debug\\" /Fd"cmTC_4915e.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_4915e.vcxproj -> C:\Users\leonardek\Desktop\dtopgui-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_4915e.exe
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dbabc.dir\Debug\\" /Fd"cmTC_dbabc.dir\Debug\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_dbabc.vcxproj -> C:\Users\leonardek\Desktop\dtopgui-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_dbabc.exe
 
 
 
