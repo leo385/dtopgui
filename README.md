@@ -31,7 +31,6 @@ The devices haven't specified type, <b>In toolbar you have</b>:
 `Rectangle`
 `Triangle`
 `Circle`
-`Diamond`
 
 ## Eight type of media
 `Straight-Through`
@@ -41,6 +40,9 @@ The devices haven't specified type, <b>In toolbar you have</b>:
 `Serial-DTE`
 `Console`
 `USB`
+
+## I Added Rubber too, to erasing objects.
+`Eraser`
 
 # Building repository
 I prefered to use `MSBUILD` instead of `MAKE` to build the repository.<br>
